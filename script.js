@@ -113,6 +113,10 @@
       });
     }
     window.switchLang = function(lang) {
+      // For the same arrow appearance with the default system font in English
+      const tocNav = document.querySelector("#toc-nav");
+      tocNav && tocNav.setAttribute("lang", "en");
+
       toggle$rootClass(lang);
       showAndHideLang(lang);
       replaceBoilerplateText(lang);
