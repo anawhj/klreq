@@ -11,7 +11,10 @@
           "#sotd > h2": "Status of This Document",
           "#toc > ol > li:nth-child(2) > a": "Status of This Document",
           "#table-of-contents": "Table of Contents",
-          ".note-title": "Note"
+          ".note-title": "Note",
+          "#toc-collapse-text": "Collapse Sidebar",
+          "#toc-expand-text": "Pop Out Sidebar",
+          "#toc-jump-text": "Jump to Table of Contents"
         },
         "fig": "Fig. ",
         dt: {},
@@ -27,7 +30,10 @@
           "#sotd > h2": "문서 현황",
           "#toc > ol > li:nth-child(2) > a": "문서 현황",
           "#table-of-contents": "목차",
-          ".note-title": "참고"
+          ".note-title": "참고",
+          "#toc-collapse-text": "사이드바 접기",
+          "#toc-expand-text": "사이드바 펼치기",
+          "#toc-jump-text": "목차로 이동"
         },
         "fig": "그림 ",
         "summary": "More details about this document",
